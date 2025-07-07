@@ -1,70 +1,87 @@
-E-Commerce Sales Analysis Project
+E-Commerce Sales Data Analysis
 
-This project analyzes an e-commerce sales dataset using *Python (Jupyter Notebook)* for data processing and *Power BI* for creating an interactive dashboard. It aims to uncover insights like sales trends, profitable products, and customer behavior.
+Overview
 
----
+This project analyzes a dataset of 8,399 e-commerce order records to uncover trends in sales, profit, and customer behavior. Using Python, Pandas, Plotly, and Power BI, the project involves data cleaning, exploratory data analysis (EDA), and visualization to derive actionable insights for optimizing profitability and understanding customer segments.
 
-## 📁 Project Files
+Dataset
+Source: E-COMMERCE.xls (not included in the repository due to sensitivity; available upon request).
 
-| File Name                         | Description                                        |
-|----------------------------------|----------------------------------------------------|
-| E-Commerce sales analysis.ipynb| Jupyter Notebook with full data analysis in Python |
-| dashboard.png                  | Power BI dashboard screenshot                      |
-| README.md                      | Project overview and documentation                 |
+Size: 8,399 records, 21 columns (e.g., Order ID, Order Date, Order Quantity, Sales, Profit, Customer Segment, Product Category, Product Sub-Category, Ship Mode).
 
----
+Preprocessing:
 
-## 📊 Power BI Dashboard Highlights
+Cleaned data using Pandas to handle inconsistencies in order and product details.
+Standardized fields for consistent analysis.
 
-The dashboard provides visual insights into the business:
+Tools and Technologies
 
-- ✅ *Total Orders:* 8,399  
-- 📦 *Total Quantity Sold:* 215,000 units  
-- 💰 *Total Profit:* ₹1.52 Million  
-- 📈 *Total Sales:* ₹14.92 Million  
+Programming Language: Python
 
-### Key Visuals:
-- Sales by Year and Quarter  
-- Sales Distribution by Product Category  
-- Profit by Sub-Category  
-- Sales by Customer Segment  
-- Shipping Cost by Shipping Mode
+Libraries: Pandas, Plotly (Express and Graph Objects), NumPy
+
+Visualization: Plotly, Power BI
+
+Environment: Jupyter Notebook
+
+Key Insights
 
 
----
+Profit by Category: Technology category contributed ~48% of total profit share (based on Plotly pie chart).
 
-## 🧪 Jupyter Notebook Overview
+Profit by Sub-Category: Copiers and Phones were the highest profit-generating sub-categories, while Tables incurred losses (from Plotly bar chart).
 
-The notebook includes the following steps:
+Customer Segment Analysis: Home Office segment had the best sales-to-profit ratio (7.13) compared to Consumer (8.66), indicating higher profitability per sale.
 
-1. 📥 *Data Loading*
-2. 🧹 *Data Cleaning & Formatting*
-3. 📊 *Exploratory Data Analysis (EDA)*
-4. 🧾 *Category, Segment & Profit Analysis*
-5. 📈 *Sales Trends Over Time*
-6. 💡 *Key Business Insights*
+Visualizations
 
----
 
-## ⚙️ Tools & Technologies Used
+Pie Chart: Profit distribution across product categories (Technology, Office Supplies, Furniture).
 
-| Tool / Library      | Purpose                          |
-|---------------------|----------------------------------|
-| *Python*          | Data analysis and processing     |
-| *Pandas*          | Data manipulation                |
-| *Matplotlib*      | Data visualization               |
-| *Jupyter Notebook*| Coding & documentation interface |
-| *Power BI*        | Interactive dashboard creation   |
+Bar Chart: Profit by product sub-categories (e.g., Copiers, Phones, Tables).
 
----
+Bar Chart: Sales and profit by customer segment (Consumer, Corporate, Home Office).
 
-## 📌 Objective
+Power BI Dashboards: Interactive visualizations for sales trends, profit analysis, and segment performance (screenshots available in the repository).
 
-To transform raw sales data into meaningful insights for business decisions using data analysis and visual storytelling.
+Repository Structure
 
----
+E_Commerse_sales_anaylsis_.ipynb: Jupyter Notebook containing data cleaning, EDA, and Plotly visualizations.
 
-## 🙋‍♂️ Author
+screenshots/: Folder with images of Plotly charts and Power BI dashboards.
 
-*kajal*  
-📅 Project Date: June 2025
+README.md: This file.
+
+How to Run
+
+Clone the Repository:
+
+git clone https://github.com/kajal53/E-Commerse-sales-data-analysis-and-Dashboard.git
+
+pip install pandas plotly numpy
+
+
+Run the Notebook:
+
+
+Open E_Commerse_sales_anaylsis_.ipynb in Jupyter Notebook.
+
+Ensure the dataset (E-COMMERCE.xls) is placed in the project directory (contact the repository owner for access).
+
+
+View Power BI Dashboards:
+
+Screenshots of dashboards are in the img.png1.png/ folder.
+For full Power BI interaction, contact the repository owner for .pbix files.
+
+Future Improvements
+
+Incorporate predictive modeling to forecast sales trends.
+
+Enhance Power BI dashboards with additional metrics (e.g., regional sales analysis).
+
+Add statistical tests to validate insights (e.g., significance of profit differences across segments).
+
+Contact
+
+For questions or dataset access, reach out to kajal.mpjru@gmail.com or via LinkedIn.
