@@ -40,55 +40,33 @@ This project analyzes a dataset of **8,399 e-commerce order records** to uncover
 
 ## How to Run
 
-1. **Clone the Repository**:
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/kajal53/E-Commerse-sales-data-analysis-and-Dashboard.git
-ory owner for access).
 
+2. **Install Dependencies:**
+   ```bash
+   pip install pandas plotly numpy 
 
-Installation and Setup
-
-
-
-Clone the Repository:
-
-git clone https://github.com/kajal53/E-Commerse-sales-data-analysis-and-Dashboard.git
-
-
-
-Install Dependencies:
-
-pip install pandas plotly numpy
-
-
-Run the Notebook:
-
-
+3. **Run the Notebook:**
 Open E_Commerse_sales_anaylsis_.ipynb in Jupyter Notebook.
+Ensure the dataset (E-COMMERCE.xls) is placed in the project directory (contact the repository owner for access).
 
-Place the dataset (E-COMMERCE.xls) in the project directory (contact the repository owner for access).
-
-
-
-View Power BI Dashboards:
-
-
+3. **View Power BI Dashboards:**
 Screenshots of dashboards are available in the screenshots/ folder.
-
 For full Power BI interaction, contact the repository owner for .pbix files.
 
-
-Future Improvements
-
-
+## Future Improvements
 Incorporate predictive modeling to forecast sales trends.
-
-Enhance Power BI dashboards with additional metrics, such as regional sales analysis.
-
-Add statistical tests to validate insights, such as significance of profit differences across segments.
+Enhance Power BI dashboards with additional metrics (e.g., regional sales analysis).
+Add statistical tests to validate insights (e.g., significance of profit differences across segments).
 
 
-Contact
+## Contact
+For questions, dataset access, or .pbix files, reach out to:
 
-For questions, dataset access, or .pbix files, reach out to kajal.mpjru@gmail.com or via LinkedIn.
-   
+Email: kajal.mpjru@gmail.com
+LinkedIn: Kajal
+
+  
+     
